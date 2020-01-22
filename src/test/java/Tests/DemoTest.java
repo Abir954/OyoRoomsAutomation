@@ -45,7 +45,7 @@ public class DemoTest {
             driver.switchTo().activeElement().sendKeys(cfg.getPropValues("TestNumber"));
             Assert.assertEquals("send passcodebutton is not enabled", true, driver.findElement(By.xpath("//span[text()='Send passcode']/..")).isEnabled());
         }
-        catch(Exception e)
+        catch(Exception g)
         {
 
         }
